@@ -1,0 +1,101 @@
+body {
+  font-family: italic;
+  margin: 2em;
+  background: rgb(230, 242, 250);
+  font-variant: small-caps;
+}
+
+.navbar{
+  padding: 10px;
+  padding-top: 0px;
+  padding-bottom: 20px;
+  padding-left: 10px
+}
+
+.carousel{
+  padding: 10px;
+  padding-top: 5px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+  margin-left: 2em;
+  margin-right: 2em;
+  margin-top: 1em;
+  margin-bottom: 1em
+}
+
+a {
+  display: block;
+  padding: 6px;
+  background-color: #white;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #white;
+}
+
+li {
+  display: inline;
+  float: left;
+  border-right: 1px solid #bbb;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 10px 10px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: white;
+}
+
+li:last-child {
+  border-right: none;
+}
+
+h1 {
+  margin-top: 5px;
+  text-align:center;
+  font-style: italic;
+  color: #black;
+  font-variant: small-caps;
+}
+
+.card{
+  margin-top: 10px;
+  margin-bottom: 10px
+}
+
+.card-body{
+text-align: center;
+}
+
+#search{
+  background: white;
+  margin-left: 600px
+}
+
+.pagination{
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-style: italic;
+  color: #blue;
+  font-variant: small-caps;
+}
+
+.pagination a {
+  border-radius: 5px;
+  transition: background-color .3s;
+}
+
+.pagination a.active {
+  border-radius: 5px;
+  background-color: #white;
+  color: grey;
+}
